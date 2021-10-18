@@ -1,0 +1,246 @@
+DEBUG: Using JAVA_HOME
+DEBUG: _PENTAHO_JAVA_HOME=C:\Program Files\Java\jdk1.8.0_301
+DEBUG: _PENTAHO_JAVA=C:\Program Files\Java\jdk1.8.0_301\bin\java.exe
+
+C:\PDI\designer-tools\data-integration>"C:\Program Files\Java\jdk1.8.0_301\bin\java.exe"  "-Xms1024m" "-Xmx2048m" "-Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2" "-Djava.library.path=libswt\win64;/bin" "-Djava.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_301\jre\lib\endorsed;C:\Program Files\Java\jdk1.8.0_301\lib\endorsed;C:\PDI\designer-tools\data-integration\system\karaf\lib\endorsed" "-DKETTLE_HOME=" "-DKETTLE_REPOSITORY=" "-DKETTLE_USER=" "-DKETTLE_PASSWORD=" "-DKETTLE_PLUGIN_PACKAGES=" "-DKETTLE_LOG_SIZE_LIMIT=" "-DKETTLE_JNDI_ROOT=" -jar launcher\launcher.jar -lib ..\libswt\win64  -main org.pentaho.di.kitchen.Kitchen -initialDir "C:\PDI\designer-tools\data-integration"\ /rep:BI_VESTIBULAR /job:JOB_CARGA_FULL_VESTIBULAR /dir:etl_dw /level:Basic /log:"C:\trabalho-bi\executa_job.log" 
+21:49:20,062 INFO  [KarafBoot] Checking to see if org.pentaho.clean.karaf.cache is enabled
+21:49:26,316 INFO  [KarafInstance] 
+*******************************************************************************
+*** Karaf Instance Number: 1 at C:\PDI\designer-tools\data-integration\.\sy ***
+***   stem\karaf\caches\kitchen\data-1                                      ***
+*** Karaf Port:8802                                                         ***
+*** OSGI Service Port:9051                                                  ***
+*******************************************************************************
+2021/10/17 21:49:28 - Kitchen - Logging is at level : Log básico
+2021/10/17 21:49:28 - Kitchen - Start of run.
+2021/10/17 21:49:28 - RepositoriesMeta - Reading repositories XML file: C:\Users\Maru\.kettle\repositories.xml
+21:49:33,952 INFO  [DriverManager] Installing driver kars.
+21:49:33,952 INFO  [DriverManager] 0 drivers will be installed.
+21:49:33,952 INFO  [DriverManager] Finished installing drivers kars.
+2021/10/17 21:49:39 - JOB_CARGA_FULL_VESTIBULAR - Início da execução do job
+2021/10/17 21:49:39 - JOB_CARGA_FULL_VESTIBULAR - Starting entry [JOB CARGA STAGIN]
+2021/10/17 21:49:39 - JOB CARGA STAGIN - Using run configuration [Pentaho local]
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Starting entry [Carga ST_CURSO]
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Launched job entry [Carga ST_CURSO] in parallel.
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Starting entry [Carga ST_PROCESSO]
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Launched job entry [Carga ST_PROCESSO] in parallel.
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Starting entry [Carga ST_CANDIDATO]
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Launched job entry [Carga ST_CANDIDATO] in parallel.
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Starting entry [Carga ST_FORMA_PGTO]
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Launched job entry [Carga ST_FORMA_PGTO] in parallel.
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Starting entry [Carga ST_INSCRICOES]
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Launched job entry [Carga ST_INSCRICOES] in parallel.
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Starting entry [Carga ST_PRE_INSCRICOES]
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Launched job entry [Carga ST_PRE_INSCRICOES] in parallel.
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Starting entry [Carga ST_INSCRICOES_PAGAS]
+2021/10/17 21:49:39 - JOB_LOAD_STAGIN_AREA - Launched job entry [Carga ST_INSCRICOES_PAGAS] in parallel.
+2021/10/17 21:49:39 - Carga ST_INSCRICOES_PAGAS - Using run configuration [Pentaho local]
+2021/10/17 21:49:39 - Carga ST_CURSO - Using run configuration [Pentaho local]
+2021/10/17 21:49:39 - Carga ST_CANDIDATO - Using run configuration [Pentaho local]
+2021/10/17 21:49:39 - Carga ST_PROCESSO - Using run configuration [Pentaho local]
+2021/10/17 21:49:39 - Carga ST_PRE_INSCRICOES - Using run configuration [Pentaho local]
+2021/10/17 21:49:39 - Carga ST_FORMA_PGTO - Using run configuration [Pentaho local]
+2021/10/17 21:49:39 - Carga ST_CURSO - Running transformation using the Kettle execution engine
+2021/10/17 21:49:39 - Carga ST_PRE_INSCRICOES - Running transformation using the Kettle execution engine
+2021/10/17 21:49:39 - Carga ST_FORMA_PGTO - Running transformation using the Kettle execution engine
+2021/10/17 21:49:39 - Carga ST_INSCRICOES_PAGAS - Running transformation using the Kettle execution engine
+2021/10/17 21:49:39 - Carga ST_PROCESSO - Running transformation using the Kettle execution engine
+2021/10/17 21:49:39 - Carga ST_CANDIDATO - Running transformation using the Kettle execution engine
+2021/10/17 21:49:39 - Carga ST_INSCRICOES - Using run configuration [Pentaho local]
+2021/10/17 21:49:39 - Carga ST_INSCRICOES - Running transformation using the Kettle execution engine
+2021/10/17 21:49:39 - ETL_EXTRACT_PROCESSO - Expedindo in?cio para transforma??o [ETL_EXTRACT_PROCESSO]
+2021/10/17 21:49:39 - ETL_EXTRACT_FORMA_PAGTO - Expedindo in?cio para transforma??o [ETL_EXTRACT_FORMA_PAGTO]
+2021/10/17 21:49:39 - ETL_EXTRACT_INSCRICOES_PAGAS - Expedindo in?cio para transforma??o [ETL_EXTRACT_INSCRICOES_PAGAS]
+2021/10/17 21:49:39 - ETL_EXTRACT_INSCRICOES - Expedindo in?cio para transforma??o [ETL_EXTRACT_INSCRICOES]
+2021/10/17 21:49:39 - ETL_EXTRACT_CANDIDATO - Expedindo in?cio para transforma??o [ETL_EXTRACT_CANDIDATO]
+2021/10/17 21:49:39 - ETL_EXTRACT_CURSO - Expedindo in?cio para transforma??o [ETL_EXTRACT_CURSO]
+2021/10/17 21:49:39 - ETL_EXTRACT_PRE_INSCRICOES - Expedindo in?cio para transforma??o [ETL_EXTRACT_PRE_INSCRICOES]
+2021/10/17 21:49:39 - LOAD ST_INSCRICOES.0 - Connected to database [CN_STAGING_VESTIBULAR] (commit=1000)
+2021/10/17 21:49:39 - LOAD ST_INSCRICOES_PAGAS.0 - Connected to database [CN_STAGING_VESTIBULAR] (commit=1000)
+2021/10/17 21:49:39 - LOAD ST_CANDIDATO.0 - Connected to database [CN_STAGING_VESTIBULAR] (commit=1000)
+2021/10/17 21:49:39 - LOAD ST_FORMA_PAGTO.0 - Connected to database [CN_STAGING_VESTIBULAR] (commit=1000)
+2021/10/17 21:49:39 - LOAD ST_PRE_INSCRICOES.0 - Connected to database [CN_STAGING_VESTIBULAR] (commit=1000)
+2021/10/17 21:49:39 - LOAD ST_CURSO.0 - Connected to database [CN_STAGING_VESTIBULAR] (commit=1000)
+2021/10/17 21:49:39 - LOAD ST_PROCESSO.0 - Connected to database [CN_STAGING_VESTIBULAR] (commit=1000)
+2021/10/17 21:49:39 - EXTRACT OBT_DATA.0 - Header row skipped in file 'C:\trabalho-bi\2 - Data Integration\pdi_repo\data\Desafio Vestibular\obt_data.csv'
+2021/10/17 21:49:39 - EXTRACT OBT_DATA.0 - Header row skipped in file 'C:\trabalho-bi\2 - Data Integration\pdi_repo\data\Desafio Vestibular\obt_data.csv'
+2021/10/17 21:49:39 - EXTRACT OBT_DATA.0 - Header row skipped in file 'C:\trabalho-bi\2 - Data Integration\pdi_repo\data\Desafio Vestibular\obt_data.csv'
+2021/10/17 21:49:39 - EXTRACT OBT_DATA.0 - Header row skipped in file 'C:\trabalho-bi\2 - Data Integration\pdi_repo\data\Desafio Vestibular\obt_data.csv'
+2021/10/17 21:49:39 - EXTRACT OBT_DATA.0 - Header row skipped in file 'C:\trabalho-bi\2 - Data Integration\pdi_repo\data\Desafio Vestibular\obt_data.csv'
+2021/10/17 21:49:39 - EXTRACT OBT_DATA.0 - Header row skipped in file 'C:\trabalho-bi\2 - Data Integration\pdi_repo\data\Desafio Vestibular\obt_data.csv'
+2021/10/17 21:49:39 - EXTRACT OBT_DATA.0 - Header row skipped in file 'C:\trabalho-bi\2 - Data Integration\pdi_repo\data\Desafio Vestibular\obt_data.csv'
+2021/10/17 21:49:40 - EXTRACT OBT_DATA.0 - Finished processing (I=13697, O=0, R=0, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - EXTRACT OBT_DATA.0 - Finished processing (I=13697, O=0, R=0, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - EXTRACT OBT_DATA.0 - Finished processing (I=13697, O=0, R=0, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - EXTRACT OBT_DATA.0 - Finished processing (I=13697, O=0, R=0, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - EXTRACT OBT_DATA.0 - Finished processing (I=13697, O=0, R=0, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - EXTRACT OBT_DATA.0 - Finished processing (I=13697, O=0, R=0, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - EXTRACT OBT_DATA.0 - Finished processing (I=13697, O=0, R=0, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - Select values.0 - Finished processing (I=0, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - Select values.0 - Finished processing (I=0, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - Select values.0 - Finished processing (I=0, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:40 - Select values.0 - Finished processing (I=0, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:41 - LOAD ST_PROCESSO.0 - Finished processing (I=0, O=13696, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:41 - LOAD ST_CURSO.0 - Finished processing (I=0, O=13696, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:41 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2021/10/17 21:49:41 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2021/10/17 21:49:41 - JOB_LOAD_STAGIN_AREA - Starting entry [Success]
+2021/10/17 21:49:41 - JOB_LOAD_STAGIN_AREA - Finished job entry [Success] (result=[true])
+2021/10/17 21:49:41 - LOAD ST_CANDIDATO.0 - Finished processing (I=0, O=13696, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:41 - JOB_LOAD_STAGIN_AREA - Starting entry [Success]
+2021/10/17 21:49:41 - JOB_LOAD_STAGIN_AREA - Finished job entry [Success] (result=[true])
+2021/10/17 21:49:41 - LOAD ST_PRE_INSCRICOES.0 - Finished processing (I=0, O=13696, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:41 - JOB_LOAD_STAGIN_AREA - Starting entry [Success]
+2021/10/17 21:49:41 - JOB_LOAD_STAGIN_AREA - Finished job entry [Success] (result=[true])
+2021/10/17 21:49:42 - Select values.0 - Finished processing (I=0, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:42 - Select values.0 - Finished processing (I=0, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:42 - Select values.0 - Finished processing (I=0, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:46 - LOAD ST_INSCRICOES.0 - Finished processing (I=0, O=13696, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:46 - JOB_LOAD_STAGIN_AREA - Starting entry [Success]
+2021/10/17 21:49:46 - JOB_LOAD_STAGIN_AREA - Finished job entry [Success] (result=[true])
+2021/10/17 21:49:46 - LOAD ST_FORMA_PAGTO.0 - Finished processing (I=0, O=13696, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:46 - JOB_LOAD_STAGIN_AREA - Starting entry [Success]
+2021/10/17 21:49:46 - JOB_LOAD_STAGIN_AREA - Finished job entry [Success] (result=[true])
+2021/10/17 21:49:48 - LOAD ST_INSCRICOES_PAGAS.0 - Finished processing (I=0, O=13696, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:49:48 - JOB_LOAD_STAGIN_AREA - Starting entry [Success]
+2021/10/17 21:49:48 - JOB_LOAD_STAGIN_AREA - Finished job entry [Success] (result=[true])
+2021/10/17 21:49:48 - JOB_CARGA_FULL_VESTIBULAR - Starting entry [JOB CARGA DW]
+2021/10/17 21:49:48 - JOB CARGA DW - Using run configuration [Pentaho local]
+2021/10/17 21:49:48 - JOB_CARGA_DW_BI_VESTIBULAR - Starting entry [LOAD DIM_CANDIDATO]
+2021/10/17 21:49:48 - LOAD DIM_CANDIDATO - Using run configuration [Pentaho local]
+2021/10/17 21:49:48 - LOAD DIM_CANDIDATO - Running transformation using the Kettle execution engine
+2021/10/17 21:49:48 - DIM_CANDIDATO - Expedindo in?cio para transforma??o [DIM_CANDIDATO]
+2021/10/17 21:49:49 - EXTRACT CANDIDATO.0 - Finished reading query, closing connection.
+2021/10/17 21:49:49 - EXTRACT CANDIDATO.0 - Finished processing (I=10771, O=0, R=0, W=10771, U=0, E=0)
+2021/10/17 21:50:01 - LOAD DIM_CANDIDATO.0 - Finished processing (I=10771, O=0, R=10771, W=10771, U=0, E=0)
+2021/10/17 21:50:01 - JOB_CARGA_DW_BI_VESTIBULAR - Starting entry [LOAD DIM_CURSO]
+2021/10/17 21:50:01 - LOAD DIM_CURSO - Using run configuration [Pentaho local]
+2021/10/17 21:50:01 - LOAD DIM_CURSO - Running transformation using the Kettle execution engine
+2021/10/17 21:50:01 - DIM_CURSO - Expedindo in?cio para transforma??o [DIM_CURSO]
+2021/10/17 21:50:01 - EXTRACT CURSO.0 - Finished reading query, closing connection.
+2021/10/17 21:50:01 - EXTRACT CURSO.0 - Finished processing (I=37, O=0, R=0, W=37, U=0, E=0)
+2021/10/17 21:50:01 - LOAD DIM_CURSO.0 - Finished processing (I=37, O=0, R=37, W=37, U=0, E=0)
+2021/10/17 21:50:01 - JOB_CARGA_DW_BI_VESTIBULAR - Starting entry [LOAD DIM_PROCESSO]
+2021/10/17 21:50:01 - LOAD DIM_PROCESSO - Using run configuration [Pentaho local]
+2021/10/17 21:50:01 - LOAD DIM_PROCESSO - Running transformation using the Kettle execution engine
+2021/10/17 21:50:01 - DIM_PROCESSO - Expedindo in?cio para transforma??o [DIM_PROCESSO]
+2021/10/17 21:50:01 - EXTRACT PROCESSO.0 - Finished reading query, closing connection.
+2021/10/17 21:50:01 - EXTRACT PROCESSO.0 - Finished processing (I=17, O=0, R=0, W=17, U=0, E=0)
+2021/10/17 21:50:01 - LOAD DIM_PROCESSO.0 - Finished processing (I=17, O=0, R=17, W=17, U=0, E=0)
+2021/10/17 21:50:01 - JOB_CARGA_DW_BI_VESTIBULAR - Starting entry [LOAD DIM_FORMA_PAGTO]
+2021/10/17 21:50:01 - LOAD DIM_FORMA_PAGTO - Using run configuration [Pentaho local]
+2021/10/17 21:50:01 - LOAD DIM_FORMA_PAGTO - Running transformation using the Kettle execution engine
+2021/10/17 21:50:01 - DIM_FORMA_PAGTO - Expedindo in?cio para transforma??o [DIM_FORMA_PAGTO]
+2021/10/17 21:50:01 - EXTRACT FORMA PAGTO.0 - Finished reading query, closing connection.
+2021/10/17 21:50:01 - EXTRACT FORMA PAGTO.0 - Finished processing (I=3, O=0, R=0, W=3, U=0, E=0)
+2021/10/17 21:50:01 - LOAD DIM_FORMA_PSGTO.0 - Finished processing (I=3, O=0, R=3, W=3, U=0, E=0)
+2021/10/17 21:50:01 - JOB_CARGA_DW_BI_VESTIBULAR - Starting entry [LOAD FATO_PRE_INSCRICOES]
+2021/10/17 21:50:02 - LOAD FATO_PRE_INSCRICOES - Using run configuration [Pentaho local]
+2021/10/17 21:50:02 - LOAD FATO_PRE_INSCRICOES - Running transformation using the Kettle execution engine
+2021/10/17 21:50:02 - FATO_PRE_INSCRICOES - Expedindo in?cio para transforma??o [FATO_PRE_INSCRICOES]
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.0 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.8 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.2 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.5 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.6 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.9 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.7 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.1 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.4 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:02 - CARGA FATO_PRE_INSCRICOES.3 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:04 - EXTRACT PRE_INSCRICOES.0 - Finished reading query, closing connection.
+2021/10/17 21:50:04 - EXTRACT PRE_INSCRICOES.0 - Finished processing (I=13696, O=0, R=0, W=13696, U=0, E=0)
+2021/10/17 21:50:14 - lookup DIM_CANDIDATO.0 - Finished processing (I=10771, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:50:14 - lookup DIM_CURSO.0 - Finished processing (I=37, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:50:14 - lookup DIM_PROCESSO.0 - Finished processing (I=17, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:50:14 - Select values.0 - Finished processing (I=0, O=0, R=13696, W=13696, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.9 - Finished processing (I=0, O=1369, R=1369, W=1369, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.5 - Finished processing (I=0, O=1370, R=1370, W=1370, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.1 - Finished processing (I=0, O=1370, R=1370, W=1370, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.6 - Finished processing (I=0, O=1369, R=1369, W=1369, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.4 - Finished processing (I=0, O=1370, R=1370, W=1370, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.7 - Finished processing (I=0, O=1369, R=1369, W=1369, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.0 - Finished processing (I=0, O=1370, R=1370, W=1370, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.2 - Finished processing (I=0, O=1370, R=1370, W=1370, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.8 - Finished processing (I=0, O=1369, R=1369, W=1369, U=0, E=0)
+2021/10/17 21:50:14 - CARGA FATO_PRE_INSCRICOES.3 - Finished processing (I=0, O=1370, R=1370, W=1370, U=0, E=0)
+2021/10/17 21:50:14 - JOB_CARGA_DW_BI_VESTIBULAR - Starting entry [LOAD FATO_INSCRICOES]
+2021/10/17 21:50:14 - LOAD FATO_INSCRICOES - Using run configuration [Pentaho local]
+2021/10/17 21:50:14 - LOAD FATO_INSCRICOES - Running transformation using the Kettle execution engine
+2021/10/17 21:50:14 - FATO_INSCRICOES - Expedindo in?cio para transforma??o [FATO_INSCRICOES]
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.6 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.3 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.4 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.0 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.2 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.7 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.5 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.8 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.9 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - LOAD FATO_PRE_INSCRICOES.1 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:14 - EXTRACT INSCRICOES.0 - Finished reading query, closing connection.
+2021/10/17 21:50:14 - EXTRACT INSCRICOES.0 - Finished processing (I=9143, O=0, R=0, W=9143, U=0, E=0)
+2021/10/17 21:50:23 - lookup DIM_CANDIDATO.0 - Finished processing (I=7370, O=0, R=9143, W=9143, U=0, E=0)
+2021/10/17 21:50:23 - lookup DIM_CURSO.0 - Finished processing (I=31, O=0, R=9143, W=9143, U=0, E=0)
+2021/10/17 21:50:23 - lookup DIM_PROCESSO.0 - Finished processing (I=17, O=0, R=9143, W=9143, U=0, E=0)
+2021/10/17 21:50:23 - Select values.0 - Finished processing (I=0, O=0, R=9143, W=9143, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.0 - Finished processing (I=0, O=915, R=915, W=915, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.1 - Finished processing (I=0, O=915, R=915, W=915, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.5 - Finished processing (I=0, O=914, R=914, W=914, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.9 - Finished processing (I=0, O=914, R=914, W=914, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.3 - Finished processing (I=0, O=914, R=914, W=914, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.8 - Finished processing (I=0, O=914, R=914, W=914, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.7 - Finished processing (I=0, O=914, R=914, W=914, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.2 - Finished processing (I=0, O=915, R=915, W=915, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.6 - Finished processing (I=0, O=914, R=914, W=914, U=0, E=0)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.4 - Finished processing (I=0, O=914, R=914, W=914, U=0, E=0)
+2021/10/17 21:50:23 - JOB_CARGA_DW_BI_VESTIBULAR - Starting entry [LOAD FATO_INSCRICOES_PAGAS]
+2021/10/17 21:50:23 - LOAD FATO_INSCRICOES_PAGAS - Using run configuration [Pentaho local]
+2021/10/17 21:50:23 - LOAD FATO_INSCRICOES_PAGAS - Running transformation using the Kettle execution engine
+2021/10/17 21:50:23 - FATO_INSCRICOES_PAGAS - Expedindo in?cio para transforma??o [FATO_INSCRICOES_PAGAS]
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.6 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.9 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.3 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.5 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.1 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.2 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.4 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.0 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.7 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - LOAD FATO_PRE_INSCRICOES.8 - Connected to database [CN_DW_BI_VESTIBULAR] (commit=1000)
+2021/10/17 21:50:23 - EXTRACT INSCRICOES PAGAS.0 - Finished reading query, closing connection.
+2021/10/17 21:50:23 - EXTRACT INSCRICOES PAGAS.0 - Finished processing (I=5316, O=0, R=0, W=5316, U=0, E=0)
+2021/10/17 21:50:28 - lookup DIM_CANDIDATO.0 - Finished processing (I=4417, O=0, R=5316, W=5316, U=0, E=0)
+2021/10/17 21:50:28 - lookup DIM_CURSO.0 - Finished processing (I=31, O=0, R=5316, W=5316, U=0, E=0)
+2021/10/17 21:50:28 - lookup DIM_PROCESSO.0 - Finished processing (I=16, O=0, R=5316, W=5316, U=0, E=0)
+2021/10/17 21:50:28 - lookup DIM_FORMA_PAGTO.0 - Finished processing (I=3, O=0, R=5316, W=5316, U=0, E=0)
+2021/10/17 21:50:28 - Select values.0 - Finished processing (I=0, O=0, R=5316, W=5316, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.0 - Finished processing (I=0, O=532, R=532, W=532, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.9 - Finished processing (I=0, O=531, R=531, W=531, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.4 - Finished processing (I=0, O=532, R=532, W=532, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.3 - Finished processing (I=0, O=532, R=532, W=532, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.6 - Finished processing (I=0, O=531, R=531, W=531, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.7 - Finished processing (I=0, O=531, R=531, W=531, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.2 - Finished processing (I=0, O=532, R=532, W=532, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.8 - Finished processing (I=0, O=531, R=531, W=531, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.1 - Finished processing (I=0, O=532, R=532, W=532, U=0, E=0)
+2021/10/17 21:50:28 - LOAD FATO_PRE_INSCRICOES.5 - Finished processing (I=0, O=532, R=532, W=532, U=0, E=0)
+2021/10/17 21:50:28 - JOB_CARGA_DW_BI_VESTIBULAR - Starting entry [Success]
+2021/10/17 21:50:28 - JOB_CARGA_DW_BI_VESTIBULAR - Finished job entry [Success] (result=[true])
+2021/10/17 21:50:28 - JOB_CARGA_DW_BI_VESTIBULAR - Finished job entry [LOAD FATO_INSCRICOES_PAGAS] (result=[true])
+2021/10/17 21:50:28 - JOB_CARGA_DW_BI_VESTIBULAR - Finished job entry [LOAD FATO_INSCRICOES] (result=[true])
+2021/10/17 21:50:28 - JOB_CARGA_DW_BI_VESTIBULAR - Finished job entry [LOAD FATO_PRE_INSCRICOES] (result=[true])
+2021/10/17 21:50:28 - JOB_CARGA_DW_BI_VESTIBULAR - Finished job entry [LOAD DIM_FORMA_PAGTO] (result=[true])
+2021/10/17 21:50:28 - JOB_CARGA_DW_BI_VESTIBULAR - Finished job entry [LOAD DIM_PROCESSO] (result=[true])
+2021/10/17 21:50:28 - JOB_CARGA_DW_BI_VESTIBULAR - Finished job entry [LOAD DIM_CURSO] (result=[true])
+2021/10/17 21:50:28 - JOB_CARGA_DW_BI_VESTIBULAR - Finished job entry [LOAD DIM_CANDIDATO] (result=[true])
+2021/10/17 21:50:28 - JOB_CARGA_FULL_VESTIBULAR - Starting entry [Success]
+2021/10/17 21:50:28 - JOB_CARGA_FULL_VESTIBULAR - Starting entry [Mail Success]
+2021/10/17 21:50:32 - JOB_CARGA_FULL_VESTIBULAR - Finished job entry [Mail Success] (result=[true])
+2021/10/17 21:50:32 - JOB_CARGA_FULL_VESTIBULAR - Finished job entry [Success] (result=[true])
+2021/10/17 21:50:32 - JOB_CARGA_FULL_VESTIBULAR - Finished job entry [JOB CARGA DW] (result=[true])
+2021/10/17 21:50:32 - JOB_CARGA_FULL_VESTIBULAR - Finished job entry [JOB CARGA STAGIN] (result=[true])
+2021/10/17 21:50:32 - JOB_CARGA_FULL_VESTIBULAR - Job execution finished
+2021/10/17 21:50:32 - Finished!
+2021/10/17 21:50:32 - Start=2021/10/17 21:49:39.021, Stop=2021/10/17 21:50:32.522
+2021/10/17 21:50:32 - Processing ended after 53 seconds.
